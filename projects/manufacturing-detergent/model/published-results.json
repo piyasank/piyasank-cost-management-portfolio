@@ -1,0 +1,26 @@
+{
+  "annualBottles": 10000000,
+  "baselineCostPerBottle": 0.9066634849505257,
+  "proposalCostPerBottle": 0.903583008409394,
+  "inputAvoided": 108352.61939827539,
+  "grossSaving": 57204.76541131735,
+  "netSaving": 49204.76541131735,
+  "capex": 92000,
+  "initialEconomicOutflow": 117766.73030098948,
+  "npv": 46392.240952389024,
+  "paybackMonths": 28.72081091736758,
+  "calendarPaybackMonths": 34.72081091736758,
+  "year1ProfitBenefit": -10364.347595330808,
+  "breakEvenLoss": 0.02244975718372,
+  "maxEquipment": 100341.07908903394,
+  "downsideNPV": -48542.853775366835,
+  "cashFlows": [
+    -117766.7303009895,
+    24602.38270565974,
+    49204.76541131948,
+    49204.76541131948,
+    49204.76541131948,
+    49204.76541131948
+  ],
+  "tests": "quantity/rate, missing inputs, commissioning, downside, break-even and native data-table comparisons passed"
+}

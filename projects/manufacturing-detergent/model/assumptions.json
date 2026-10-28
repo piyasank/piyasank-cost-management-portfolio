@@ -1,0 +1,89 @@
+{
+  "currency": "GBP",
+  "snapshot_date": "2026-10-28",
+  "classification": "Illustrative, unvalidated engineering and commercial assumptions",
+  "production": {
+    "saleable_litres": 10000000,
+    "litres_per_bottle": 1,
+    "density_kg_per_litre": 1.03,
+    "operating_days": 250,
+    "baseline_loss": 0.03,
+    "selling_price_per_litre": 1.6
+  },
+  "materials": [
+    {
+      "name": "Water / carrier",
+      "mass_fraction": 0.7,
+      "price_per_kg": 0.001
+    },
+    {
+      "name": "Bulk cleaning ingredient group",
+      "mass_fraction": 0.22,
+      "price_per_kg": 0.9
+    },
+    {
+      "name": "Premium additive group",
+      "mass_fraction": 0.06,
+      "price_per_kg": 2.8
+    },
+    {
+      "name": "Fragrance / other ingredient group",
+      "mass_fraction": 0.02,
+      "price_per_kg": 4.5
+    }
+  ],
+  "packaging": [
+    {
+      "name": "One-litre bottle",
+      "quantity_per_bottle": 1,
+      "price_per_item": 0.18
+    },
+    {
+      "name": "Cap",
+      "quantity_per_bottle": 1,
+      "price_per_item": 0.035
+    },
+    {
+      "name": "Label",
+      "quantity_per_bottle": 1,
+      "price_per_item": 0.015
+    },
+    {
+      "name": "Shipping case",
+      "quantity_per_bottle": 0.16666666666666666,
+      "price_per_item": 0.24
+    }
+  ],
+  "operations": {
+    "shifts": 2,
+    "paid_hours": 8,
+    "crew_per_shift": 8,
+    "hourly_wage": 15,
+    "employer_oncost": 0.25,
+    "fixed_overhead": 250000,
+    "existing_depreciation": 100000,
+    "process_kwh_per_input_kg": 0.045,
+    "filling_kwh_per_bottle": 0.006,
+    "electricity_per_kwh": 0.25,
+    "disposal_per_kg": 0.06,
+    "freight_per_bottle": 0.04,
+    "packaging_loss": 0.005
+  },
+  "investment": {
+    "target_loss": 0.02,
+    "equipment": 60000,
+    "installation": 15000,
+    "validation": 5000,
+    "contingency": 0.15,
+    "training": 5000,
+    "annual_maintenance": 8000,
+    "commissioning_month": 7,
+    "downtime_days": 2,
+    "unrecoverable_output_share": 0.25,
+    "pilot": 5000,
+    "discount_rate": 0.1,
+    "asset_life_years": 5,
+    "year5_residual": 0,
+    "extra_annual_kwh": 0
+  }
+}

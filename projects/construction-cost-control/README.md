@@ -10,6 +10,8 @@ A client-side forecast final cost review for a hypothetical **£5 million office
 >
 > [Download the November Excel workbook](model/November-Cost-Control.xlsx) · [Download the November Word report](reports/November-Cost-Report.docx)
 
+**December decision exercise.** [Compare three priced recovery options](DECEMBER-RECOVERY-OPTIONS.md) against the November forecast.
+
 ## The management finding
 
 The expected forecast is **£4,997,400**, leaving only **£2,600** below the approved funding cap. The same assumptions produce a **P80 cost of £5,053,631**, a **£53,631 funding gap** at that selected confidence level.

@@ -8,6 +8,8 @@ This portfolio connects quantity and rate cost estimates to practical investment
 
 In the illustrative November reporting cycle, expected final cost rose by **£120k to £5.12m**. The report explains the forecast movement and shows a funding gap of **about £172k at P80**.
 
+**Assumption I challenged.** I questioned whether the proposed MEP work sequence justified lowering the probability of restricted access from 35% to 20%. On a live project, I’d look for an agreed access programme showing when work areas would be available and how clashes between trades would be managed. Keeping the probability at 35%, with other assumptions held constant, adds £10,000 to the expected final cost.
+
 - [November Word report](projects/construction-cost-control/reports/November-Cost-Report.docx) — one-page sponsor brief.
 - [November Excel review](projects/construction-cost-control/model/November-Cost-Control.xlsx) — forecast bridge, package breakdown and funding position.
 - [October working model](projects/construction-cost-control/model/Construction-Cost-Control.xlsx) — editable baseline with the change register and risk calculations.

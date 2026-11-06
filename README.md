@@ -4,14 +4,17 @@ Independent cost management case studies by **Sankha Bhattacharjee**.
 
 This portfolio connects quantity and rate cost estimates to practical investment decisions. Each case separates published context, illustrative assumptions and evidence that would be required before implementation.
 
-## Case studies
+## Construction cost control | £5m office refurbishment
 
-| Project | Sector | Decision |
-| --- | --- | --- |
-| [01: Detergent investment](projects/manufacturing-detergent/README.md) | Manufacturing | Do material savings justify equipment investment? |
-| [02: Construction cost control](projects/construction-cost-control/README.md) | Construction | Does remaining funding cover forecast cost and risk? |
+In the illustrative November reporting cycle, expected final cost rose by **£120k to £5.12m**. The report explains the forecast movement and shows a funding gap of **about £172k at P80**.
 
-## Project 01: manufacturing
+- [November Word report](projects/construction-cost-control/reports/November-Cost-Report.docx) — one-page sponsor brief.
+- [November Excel review](projects/construction-cost-control/model/November-Cost-Control.xlsx) — forecast bridge, package breakdown and funding position.
+- [October working model](projects/construction-cost-control/model/Construction-Cost-Control.xlsx) — editable baseline with the change register and risk calculations.
+
+[Explore the construction case study](projects/construction-cost-control/README.md) · [Read the November report on GitHub](projects/construction-cost-control/NOVEMBER-REPORT.md)
+
+## Manufacturing cost management | Detergent investment
 
 ### Should a detergent line invest in material-loss controls?
 
@@ -22,16 +25,6 @@ A hypothetical UK liquid-detergent line informed by Unilever's public reporting.
 [Explore the case study](projects/manufacturing-detergent/README.md) · [Open the Excel model](projects/manufacturing-detergent/model/Detergent-Line-Investment-Case.xlsx) · [Read the investment brief](projects/manufacturing-detergent/reports/Investment-Brief.pdf)
 
 ![Sensitivity of five-year investment value to process loss](projects/manufacturing-detergent/assets/investment-sensitivity.png)
-
-## Project 02: construction cost control
-
-### Is the remaining contingency sufficient?
-
-A synthetic £5m office refurbishment cost report that reconciles certified valuations, accruals, commitments, unlet scope and change orders. A seeded 50,000-draw risk simulation compares the expected forecast with P50, P80 and P90 costs.
-
-**The main finding:** £2,600 of expected headroom coexists with a £53,631 funding gap at P80 under the model assumptions. The recommendation focuses on priced scope decisions and the sponsor's chosen risk appetite.
-
-[Explore the case study](projects/construction-cost-control/README.md) · [Open the Excel model](projects/construction-cost-control/model/Construction-Cost-Control.xlsx) · [Read the report](projects/construction-cost-control/reports/Construction-Cost-Control-Report.pdf)
 
 ## Skills demonstrated
 

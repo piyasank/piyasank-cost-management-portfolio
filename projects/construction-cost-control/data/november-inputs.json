@@ -1,0 +1,254 @@
+{
+  "project": "Hypothetical office refurbishment and fit-out",
+  "currency": "GBP",
+  "as_of": "2026-11-30",
+  "classification": "Synthetic portfolio dataset; no real contract or client data",
+  "original_contingency": 500000,
+  "pending_change_factor": 1,
+  "prolongation_per_week": 12000,
+  "simulation_trials": 50000,
+  "simulation_seed": 53526,
+  "packages": [
+    {
+      "id": "WP01",
+      "description": "Preliminaries and site management",
+      "budget": 450000,
+      "award": 430000,
+      "certified": 300000,
+      "accrual": 30000,
+      "base_forecast_adjustment": 15000
+    },
+    {
+      "id": "WP02",
+      "description": "Enabling and structural alterations",
+      "budget": 850000,
+      "award": 820000,
+      "certified": 500000,
+      "accrual": 40000,
+      "base_forecast_adjustment": 10000
+    },
+    {
+      "id": "WP03",
+      "description": "Mechanical and electrical",
+      "budget": 1500000,
+      "award": 1460000,
+      "certified": 670000,
+      "accrual": 0,
+      "base_forecast_adjustment": 45000
+    },
+    {
+      "id": "WP04",
+      "description": "Internal finishes and partitions",
+      "budget": 1100000,
+      "award": 1020000,
+      "certified": 400000,
+      "accrual": 60000,
+      "base_forecast_adjustment": 15000
+    },
+    {
+      "id": "WP05",
+      "description": "External works",
+      "budget": 350000,
+      "award": 300000,
+      "certified": 120000,
+      "accrual": 15000,
+      "base_forecast_adjustment": 0
+    },
+    {
+      "id": "WP06",
+      "description": "Commissioning and handover",
+      "budget": 250000,
+      "award": 100000,
+      "certified": 30000,
+      "accrual": 10000,
+      "base_forecast_adjustment": 0
+    }
+  ],
+  "changes": [
+    {
+      "id": "CO01",
+      "package": "WP03",
+      "description": "Approved electrical capacity upgrade",
+      "status": "Approved",
+      "date": "2026-09-15",
+      "forecast": 120000,
+      "agreed": 120000
+    },
+    {
+      "id": "CO02",
+      "package": "WP04",
+      "description": "Approved tenant partition revisions",
+      "status": "Approved",
+      "date": "2026-10-05",
+      "forecast": 65000,
+      "agreed": 65000
+    },
+    {
+      "id": "CO03",
+      "package": "WP02",
+      "description": "Approved opening and strengthening",
+      "status": "Approved",
+      "date": "2026-09-28",
+      "forecast": 40000,
+      "agreed": 40000
+    },
+    {
+      "id": "CO04",
+      "package": "WP01",
+      "description": "Approved additional mobilisation",
+      "status": "Approved",
+      "date": "2026-10-11",
+      "forecast": 25000,
+      "agreed": 25000
+    },
+    {
+      "id": "CO05",
+      "package": "WP03",
+      "description": "Ventilation design revision approved at October forecast value",
+      "status": "Approved",
+      "date": "2026-11-12",
+      "forecast": 180000,
+      "agreed": 180000
+    },
+    {
+      "id": "CO06",
+      "package": "WP04",
+      "description": "Pending tenant layout revisions",
+      "status": "Pending",
+      "date": "2026-10-26",
+      "forecast": 75000,
+      "agreed": 75000
+    },
+    {
+      "id": "CO07",
+      "package": "WP02",
+      "description": "Pending firestopping design instruction",
+      "status": "Pending",
+      "date": "2026-10-29",
+      "forecast": 60000,
+      "agreed": 60000
+    },
+    {
+      "id": "CO08",
+      "package": "WP04",
+      "description": "Rejected decorative upgrade",
+      "status": "Rejected",
+      "date": "2026-10-18",
+      "forecast": 90000,
+      "agreed": 0
+    },
+    {
+      "id": "CO09",
+      "package": "WP04",
+      "description": "Potential alternative door finishes",
+      "status": "Opportunity",
+      "date": "2026-10-27",
+      "forecast": -30000,
+      "agreed": 0
+    },
+    {
+      "id": "CO10",
+      "package": "WP03",
+      "description": "November MEP instruction, distinct from ventilation revision and outstanding coordination scope",
+      "status": "Approved",
+      "date": "2026-11-03",
+      "forecast": 100000,
+      "agreed": 100000
+    }
+  ],
+  "unlet": [
+    {
+      "id": "U01",
+      "package": "WP06",
+      "description": "Testing and commissioning areas",
+      "quantity": 3,
+      "unit": "area",
+      "rate": 35000
+    },
+    {
+      "id": "U02",
+      "package": "WP06",
+      "description": "Independent inspection visits",
+      "quantity": 2,
+      "unit": "visit",
+      "rate": 10000
+    },
+    {
+      "id": "U03",
+      "package": "WP06",
+      "description": "Handover documentation and training",
+      "quantity": 1,
+      "unit": "lot",
+      "rate": 40000
+    }
+  ],
+  "risks": [
+    {
+      "id": "R01",
+      "package": "WP02",
+      "description": "Latent services and hazardous material",
+      "probability": 0.25,
+      "low": 40000,
+      "mode": 80000,
+      "high": 180000,
+      "change_id": ""
+    },
+    {
+      "id": "R02",
+      "package": "WP03",
+      "description": "Restricted access to MEP work areas",
+      "probability": 0.2,
+      "low": 20000,
+      "mode": 60000,
+      "high": 120000,
+      "change_id": ""
+    },
+    {
+      "id": "R03",
+      "package": "WP05",
+      "description": "Unforeseen drainage repairs",
+      "probability": 0.2,
+      "low": 10000,
+      "mode": 35000,
+      "high": 70000,
+      "change_id": ""
+    },
+    {
+      "id": "R04",
+      "package": "WP02",
+      "description": "Firestopping design already in CO07",
+      "probability": 0.8,
+      "low": 40000,
+      "mode": 60000,
+      "high": 90000,
+      "change_id": "CO07"
+    }
+  ],
+  "delay_states": [
+    {
+      "weeks": 0,
+      "probability": 0.55
+    },
+    {
+      "weeks": 4,
+      "probability": 0.35
+    },
+    {
+      "weeks": 8,
+      "probability": 0.1
+    }
+  ],
+  "scope_notes": [
+    "All figures are synthetic assumptions, excluding VAT, land, professional fees and financing.",
+    "Certified values are gross work valuations before retention, not cash payments.",
+    "Accruals cover completed work not included in certified valuations.",
+    "Awards exclude approved changes; these enter once from the change register.",
+    "All approved changes draw original contingency; no external funding increase is assumed.",
+    "Pending known changes enter at full best-estimate value; opportunities and rejected changes are excluded.",
+    "Unlet quantities are outside awarded scope. Base adjustments are known base-scope gaps, excluding changes and risk.",
+    "Delay risk covers future prolongation beyond the current committed and known forecast; it excludes past mobilisation already in CO04.",
+    "Risk events are independent. Delay states are mutually exclusive. No unlisted risks or correlation model is included.",
+    "November scenario: WP03 base-scope adjustment covers outstanding MEP coordination only, separate from CO05 and CO10. An agreed access sequence reduces assumed R02 probability from 35% to 20%; impact estimates and delay states are retained."
+  ],
+  "approved_funding": 5000000
+}

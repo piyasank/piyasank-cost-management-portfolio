@@ -1,0 +1,258 @@
+{
+  "forecast": {
+    "as_of": "2026-11-30",
+    "funding": 5000000,
+    "original_base_budget": 4500000,
+    "approved_changes": 530000,
+    "current_allocated_budget": 5030000,
+    "remaining_unallocated_contingency": -30000,
+    "certified": 2020000,
+    "accrual": 155000,
+    "incurred": 2175000,
+    "current_commitment": 4660000,
+    "outstanding_commitment": 2485000,
+    "unlet": 165000,
+    "base_adjustment": 85000,
+    "pending_changes": 135000,
+    "known_forecast": 5045000,
+    "funding_before_residual_risk": -45000,
+    "event_risk_emv": 46000.0,
+    "delay_risk_emv": 26400.000000000004,
+    "residual_risk_emv": 72400.0,
+    "expected_forecast": 5117400.0,
+    "expected_headroom": -117400.0,
+    "excluded_risk_ids": [
+      "R04"
+    ],
+    "effective_change_ids": [
+      "CO01",
+      "CO02",
+      "CO03",
+      "CO04",
+      "CO05",
+      "CO06",
+      "CO07",
+      "CO08",
+      "CO09",
+      "CO10"
+    ],
+    "packages": [
+      {
+        "id": "WP01",
+        "description": "Preliminaries and site management",
+        "original_budget": 450000,
+        "approved_changes": 25000,
+        "current_budget": 475000,
+        "current_commitment": 455000,
+        "certified": 300000,
+        "accrual": 30000,
+        "incurred": 330000,
+        "outstanding_commitment": 125000,
+        "unlet": 0,
+        "base_adjustment": 15000,
+        "pending_changes": 0,
+        "known_forecast": 470000,
+        "variance_to_current_budget": -5000
+      },
+      {
+        "id": "WP02",
+        "description": "Enabling and structural alterations",
+        "original_budget": 850000,
+        "approved_changes": 40000,
+        "current_budget": 890000,
+        "current_commitment": 860000,
+        "certified": 500000,
+        "accrual": 40000,
+        "incurred": 540000,
+        "outstanding_commitment": 320000,
+        "unlet": 0,
+        "base_adjustment": 10000,
+        "pending_changes": 60000,
+        "known_forecast": 930000,
+        "variance_to_current_budget": 40000
+      },
+      {
+        "id": "WP03",
+        "description": "Mechanical and electrical",
+        "original_budget": 1500000,
+        "approved_changes": 400000,
+        "current_budget": 1900000,
+        "current_commitment": 1860000,
+        "certified": 670000,
+        "accrual": 0,
+        "incurred": 670000,
+        "outstanding_commitment": 1190000,
+        "unlet": 0,
+        "base_adjustment": 45000,
+        "pending_changes": 0,
+        "known_forecast": 1905000,
+        "variance_to_current_budget": 5000
+      },
+      {
+        "id": "WP04",
+        "description": "Internal finishes and partitions",
+        "original_budget": 1100000,
+        "approved_changes": 65000,
+        "current_budget": 1165000,
+        "current_commitment": 1085000,
+        "certified": 400000,
+        "accrual": 60000,
+        "incurred": 460000,
+        "outstanding_commitment": 625000,
+        "unlet": 0,
+        "base_adjustment": 15000,
+        "pending_changes": 75000,
+        "known_forecast": 1175000,
+        "variance_to_current_budget": 10000
+      },
+      {
+        "id": "WP05",
+        "description": "External works",
+        "original_budget": 350000,
+        "approved_changes": 0,
+        "current_budget": 350000,
+        "current_commitment": 300000,
+        "certified": 120000,
+        "accrual": 15000,
+        "incurred": 135000,
+        "outstanding_commitment": 165000,
+        "unlet": 0,
+        "base_adjustment": 0,
+        "pending_changes": 0,
+        "known_forecast": 300000,
+        "variance_to_current_budget": -50000
+      },
+      {
+        "id": "WP06",
+        "description": "Commissioning and handover",
+        "original_budget": 250000,
+        "approved_changes": 0,
+        "current_budget": 250000,
+        "current_commitment": 100000,
+        "certified": 30000,
+        "accrual": 10000,
+        "incurred": 40000,
+        "outstanding_commitment": 60000,
+        "unlet": 165000,
+        "base_adjustment": 0,
+        "pending_changes": 0,
+        "known_forecast": 265000,
+        "variance_to_current_budget": 15000
+      }
+    ]
+  },
+  "simulation": {
+    "trials": 50000,
+    "seed": 53526,
+    "mean": 5117336.123326805,
+    "p50": 5094278.814192632,
+    "p80": 5172022.730507697,
+    "p90": 5209732.939449763,
+    "p95": 5240166.70232859,
+    "probability_over_budget": 1.0,
+    "p80_funding_gap": 172022.73050769698,
+    "sample_standard_error": 290.4713324854403,
+    "histogram": [
+      {
+        "lower": 5045000,
+        "upper": 5070000,
+        "count": 13887
+      },
+      {
+        "lower": 5070000,
+        "upper": 5095000,
+        "count": 11210
+      },
+      {
+        "lower": 5095000,
+        "upper": 5120000,
+        "count": 3539
+      },
+      {
+        "lower": 5120000,
+        "upper": 5145000,
+        "count": 7057
+      },
+      {
+        "lower": 5145000,
+        "upper": 5170000,
+        "count": 3993
+      },
+      {
+        "lower": 5170000,
+        "upper": 5195000,
+        "count": 3701
+      },
+      {
+        "lower": 5195000,
+        "upper": 5220000,
+        "count": 2615
+      },
+      {
+        "lower": 5220000,
+        "upper": 5245000,
+        "count": 1757
+      },
+      {
+        "lower": 5245000,
+        "upper": 5270000,
+        "count": 1062
+      },
+      {
+        "lower": 5270000,
+        "upper": 5295000,
+        "count": 615
+      },
+      {
+        "lower": 5295000,
+        "upper": 5320000,
+        "count": 316
+      },
+      {
+        "lower": 5320000,
+        "upper": 5345000,
+        "count": 144
+      },
+      {
+        "lower": 5345000,
+        "upper": 5370000,
+        "count": 73
+      },
+      {
+        "lower": 5370000,
+        "upper": 5395000,
+        "count": 22
+      },
+      {
+        "lower": 5395000,
+        "upper": 5420000,
+        "count": 7
+      },
+      {
+        "lower": 5420000,
+        "upper": 5445000,
+        "count": 2
+      },
+      {
+        "lower": 5445000,
+        "upper": 5470000,
+        "count": 0
+      },
+      {
+        "lower": 5470000,
+        "upper": 5495000,
+        "count": 0
+      },
+      {
+        "lower": 5495000,
+        "upper": 5520000,
+        "count": 0
+      },
+      {
+        "lower": 5520000,
+        "upper": 5545000,
+        "count": 0
+      }
+    ]
+  }
+}

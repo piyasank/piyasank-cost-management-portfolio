@@ -11,8 +11,10 @@ In the illustrative November reporting cycle, expected final cost rose by **£12
 **Assumption I challenged.** I questioned whether the proposed MEP work sequence justified lowering the probability of restricted access from 35% to 20%. On a live project, I’d look for an agreed access programme showing when work areas would be available and how clashes between trades would be managed. Keeping the probability at 35%, with other assumptions held constant, adds £10,000 to the expected final cost.
 
 - [November Word report](projects/construction-cost-control/reports/November-Cost-Report.docx) — one-page sponsor brief.
-- [November Excel review](projects/construction-cost-control/model/November-Cost-Control.xlsx) — forecast bridge, package breakdown and funding position.
-- [October working model](projects/construction-cost-control/model/Construction-Cost-Control.xlsx) — editable baseline with the change register and risk calculations.
+- [November forecast review (Excel)](projects/construction-cost-control/model/November-Cost-Control.xlsx) — a quick read of what changed, which packages drove it and where funding stands.
+- [October working model (Excel)](projects/construction-cost-control/model/Construction-Cost-Control.xlsx) — trace and test the baseline using the editable change register and risk calculations.
+
+**Try this in the October model.** In **Changes**, set CO05 (`F13`) from **Pending** to **Approved** at the existing £180,000 value. In **Cost Report**, outstanding commitments rise by £180,000 and pending changes fall by the same amount. The known forecast stays at **£4.915m**. Restore `F13` to **Pending** after the check.
 
 [Explore the construction case study](projects/construction-cost-control/README.md) · [Read the November report on GitHub](projects/construction-cost-control/NOVEMBER-REPORT.md)
 

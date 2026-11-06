@@ -7,6 +7,8 @@ A client-side forecast final cost review for a hypothetical **£5 million office
 **Reporting cutoff: 31 October 2026. Prepared: 5 November 2026.** All amounts are GBP, excluding VAT, land, professional fees and financing.
 
 > **November follow-up.** See the [November cost report](NOVEMBER-REPORT.md) for the forecast bridge, updated funding gap and sponsor decision. The figures below are the October baseline.
+>
+> [Download the November Excel workbook](model/November-Cost-Control.xlsx) · [Download the November Word report](reports/November-Cost-Report.docx)
 
 ## The management finding
 

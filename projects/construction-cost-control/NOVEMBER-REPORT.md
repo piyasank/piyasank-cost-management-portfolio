@@ -6,6 +6,8 @@ The expected final cost is **£5,117,400**, up **£120,000** from October and **
 
 **Decision requested.** Confirm the funding confidence level and ask the project team to validate the £30,000 MEP coordination uplift and identify priced scope reductions before making further discretionary commitments. If the sponsor retains P80 as the planning basis, bring back a revised forecast showing how evidenced scope changes, mitigation or additional funding address the £172,023 gap.
 
+[Download the November Excel workbook](model/November-Cost-Control.xlsx) · [Download the November Word report](reports/November-Cost-Report.docx)
+
 ## Forecast movement
 
 | Movement | Effect on known final cost | Explanation |

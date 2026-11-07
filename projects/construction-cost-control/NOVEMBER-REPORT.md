@@ -2,9 +2,9 @@
 
 **£5m office refurbishment and fit-out | 30 November 2026 | Illustrative scenario**
 
-The expected final cost is **£5,117,400**, up **£120,000** from October and **£117,400 over approved funding**. The known forecast alone exceeds funding by £45,000. At P80, the funding gap is **£172,023**.
+The expected final cost is **£5,117,400**, up **£120,000** from October and **£117,400 over approved funding**. The known forecast alone exceeds funding by £45,000. At P80, the funding gap is **about £172k**.
 
-**Decision requested.** Confirm the funding confidence level and ask the project team to validate the £30,000 MEP coordination uplift and identify priced scope reductions before making further discretionary commitments. If the sponsor retains P80 as the planning basis, bring back a revised forecast showing how evidenced scope changes, mitigation or additional funding address the £172,023 gap.
+**Decision requested.** Confirm the funding confidence level and ask the project team to validate the £30,000 MEP coordination uplift and identify priced scope reductions before making further discretionary commitments. If the sponsor retains P80 as the planning basis, bring back a revised forecast showing how evidenced scope changes, mitigation or additional funding address the gap.
 
 [Download the November Excel workbook](model/November-Cost-Control.xlsx) · [Download the November Word report](reports/November-Cost-Report.docx)
 
@@ -57,6 +57,22 @@ The 20% assumption depends on the proposed work sequence making the required are
 | Keep October's access probability | 35% | £5,045,000 | £82,400 | £5,127,400 | about £184k |
 
 Keeping the probability at 35% adds £10,000 to expected final cost. The known forecast stays the same. To reproduce the sensitivity, copy the November inputs, change risk `R02`’s `probability` from `0.20` to `0.35`, then run the command below using the copied file. The comparison holds the other November inputs, simulation seed and trial count fixed.
+
+## Stress test: restricted access and delay together
+
+Assume restricted MEP access occurs and causes four weeks of project prolongation. The scenario allows **£60k** for direct MEP disruption, using the most likely R02 impact, plus **£48k** for four weeks at £12k per week. It assumes separate cost categories for trade disruption and time-related site costs. On a live project, reconcile the two cost build-ups and check the delay against the critical path.
+
+| November funding measure | Base case | Access and delay stress case |
+| --- | ---: | ---: |
+| Known forecast | £5.045m | £5.045m |
+| Expected final cost | £5.117m | £5.186m |
+| P80 funding gap | About £172k | About £231k |
+
+The P80 in the stress column is conditional on both events occurring at the stated costs. The remaining risks still vary across the simulation draws. The scenario illustrates the funding consequence if they occur together. It assigns no likelihood to that combination.
+
+**Sponsor decision.** Still validate scope and prices before making further discretionary commitments. If the planner cannot confirm protected access windows and show how the programme would absorb disruption, take the roughly £231k stress gap to the sponsor alongside the base case before agreeing a funding level.
+
+To rerun the stress case, copy the November inputs. Set `R02` probability to `1` and its low, mode and high impacts to `60000`. Replace `delay_states` with one four-week outcome at probability `1`. Keep the remaining risks, seed and draw count at the November settings.
 
 ## Reproduce the report
 

@@ -24,6 +24,8 @@ This independent case study represents a hypothetical UK line producing 10 milli
 
 **Recommendation:** conduct a measured production trial and obtain supplier quotations before capital approval. Positive savings alone do not establish that an investment meets its required return.
 
+[Production trial and investment decision](TRIAL-PLAN.md) shows how to measure bulk loss, check quality and retest the investment using supplier prices.
+
 ## Start here
 
 - [Excel investment model](model/Detergent-Line-Investment-Case.xlsx): begin on the Decision tab. Amber cells contain editable inputs.
